@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Твой последний шанс все изменить</title>
+    <link rel="icon" href="/images/deal.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/789366e4df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <div class="main">
+          <img class="logo" src="./images/handshake.png" alt="logo" />
+          <h1 class="logo-title">ОБЩЕЕ ДЕЛО</h1>
+        </div>
+      </div>
+    </header>
+    <div class="section">
+      <img class="background" src="./images/bg.jpeg" alt="background" />
+      <div class="title">
+        <h2>
+          Уникальное новшество от программистов, благодаря которому обычные
+          русские работяги получают дополнительно от 60.000 рублей в месяц,
+          уделяя всего 15 минут в день! Посмотрите видео, пройдите бесплатную
+          регистрацию и получите свою первую выплату уже завтра.
+        </h2>
+      </div>
+    </div>
+<!-- 
+    <video">
+      <sourse src="video.mp4" type="video/mp4">
+    </video> -->
+    <div class="video">
+      <iframe
+        class="video-setting"
+        width="920"
+        height="615"
+        src="https://www.youtube.com/embed/AyQrSPqWsNc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div> 
+  
+    <div class="sending__form">
+      <div class="form">
+        <form action="#" id="form" class="form__body">
+          <div class="form__item">
+            <div class="input__container">
+              <label for="formName" class="form__label"></label>
+              <span class="user"><i class="fas fa-user"></i></span>
+              <input
+                id="formName"
+                type="text"
+                name="name"
+                class="form__input _req"
+                placeholder="Ваше имя"
+              />
+            </div>
+          </div>
+          <div class="form__item">
+            <div class="input__container">
+              <label for="formEmail" class="form__label"></label>
+              <span class="email"> <i class="far fa-envelope"></i></span>
+              <input
+                id="formEmail"
+                type="text"
+                name="name"
+                class="form__input _req _email"
+                placeholder="Ваш актуальный e-mail"
+              />
+            </div>
+          </div>
+          <button class="send"><h3>Отправить</h3></button>
+        </form>
+      </div>
+    
+    </div>
+    <div class="modal__wrapper">
+      <div class="modal__container">
+        <div class="modal__window">
+          <div id="modal">
+            <div class="modal__form">
+              <h2 class="modal__title">Пройдите регистрацию и получите бесплатный доступ к пронрамме!!</h2>
+              <form action="#" id="form" class="form__body">
+                <button class="close"><i class="fas fa-times"></i></button>
+                <div class="modal__item-user">
+                  <div class="input__container">
+                    <label for="formName" class="form__label"></label>
+                    <span class="user"><i class="fas fa-user"></i></span>
+                    <input
+                      id="formName"
+                      type="text"
+                      name="name"
+                      class="form__input _req"
+                      placeholder="Ваше имя"
+                    />
+                  </div>
+                </div>
+                <div class="modal__item-email">
+                  <div class="input__container">
+                    <label for="formEmail" class="form__label"></label>
+                    <span class="email"> <i class="far fa-envelope"></i></span>
+                    <input
+                      id="formEmail"
+                      type="text"
+                      name="name"
+                      class="form__input _req _email"
+                      placeholder="Ваш актуальный e-mail"
+                    />
+                  </div>
+                </div>
+                <div class="offer">
+                  <form class="checkbox _req" action="./action_page.php">
+                    <input type="checkbox" name="checkbox" checked />
+                    <label class="chechbox-title-modal" for="checkbox"
+                      >Я согласен на обработку персныльных данных и получение рекламных
+                      материалов, и я согласен с <a href="#">публичной офертой</a></label
+                    >
+                  </form>
+                </div>
+                <button class="send-modal"><h3>Отправить</h3></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="registration">
+      <div class="course">
+        <img src="./images/free-icon-online-course-2000860.png" alt="courses" />
+      </div>
+      <div class="arrow-left">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="arrow-right">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="link-item">
+        <h3 class="registration__wrapper">
+          <a href="#" class="quick__registration">Пройти бесплатную
+            регистрацию</a> 
+        </h3>
+      </div>
+    </div>
+
+    <div class="offer">
+      <form class="checkbox _req" action="./action_page.php">
+        <input type="checkbox" name="checkbox" checked />
+        <label class="chechbox-title" for="checkbox"
+          >Я согласен на обработку персныльных данных и получение рекламных
+          материалов, и я согласен с <a href="#">публичной офертой</a></label
+        >
+      </form>
+    </div>
+    <div class="partners">
+      <div class="items">
+        <div>
+          <img
+            class="partner"
+            src="./images/imgbin-credit-card-computer-icons-visa-electron-bank-curio-C1saNMgnVsZsTcFbpa92vSUdA.jpg"
+            alt="visa"
+          />
+        </div>
+        <div>
+          <img
+            class="partner"
+            src="./images/Screenshot_1.png"
+            alt="furniture"
+          />
+        </div>
+        <div>
+          <img class="partner" src="./images/Screenshot_2.png" alt="window" />
+        </div>
+        <div>
+          <img class="partner" src="/images/Screenshot_3.png" alt="rehau" />
+        </div>
+        <div>
+          <img class="partner" src="./images/Screenshot_4.png" alt="fridge" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="" >
+        <div>
+          <a class="footer-item" href="#">Политика конфеденциальности</a>
+        </div>
+        <div>
+          <a class="footer-item" href="#">Пользовательское соглашение</a>
+        </div>
+        <div>
+          <a class="footer-item" href="#">Copyright @ 2021 - Общее дело </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
